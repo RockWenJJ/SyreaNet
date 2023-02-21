@@ -22,9 +22,9 @@ The synthesis and real-world dataset could be downloaded via:
 If you find our repo useful for your research, please consider citing our paper:
 
 ```bibtex
-@article{wen2023syrea,
+@article{wen2023syreanet,
   title={SyreaNet: A Physically Guided Underwater Image Enhancement Framework Integrating Synthetic and Real Images},
-  author={Wen, Junjie and Cui, Jinqiang and Zhao, Zhenjun and Yan, Ruixin and Gao, Zhi and Dou, Lihua and Chen, Ben M.},
+  author={Wen, Junjie and Cui, Jinqiang and Zhao, Zhenjun and Yan, Ruixin and Gao, Zhi and Dou, Lihua and Chen, Ben M},
   journal={arXiv preprint arXiv:2302.08269},
   year={2023}
 }
