@@ -1,6 +1,7 @@
 ## SyreaNet: A Physically Guided Underwater Image Enhancement Framework Integrating Synthetic and Real Images
 
 This repository contains the official implementation of the paper:
+
 > **SyreaNet: A Physically Guided Underwater Image Enhancement Framework Integrating Synthetic and Real Images** (accepted by ICRA2023)<br>
 > Junjie Wen, Jinqiang Cui, Zhenjun Zhao, Ruixin Yan, Zhi Gao, Lihua Dou, Ben M. Chen <br>
 > **Paper Link**: [[arxiv](https://arxiv.org/pdf/2302.08269.pdf)]
@@ -18,6 +19,13 @@ Enhancement examples under various underwater conditions. Video can be found at 
 The synthesis and real-world dataset could be downloaded via:
 [BaiduYun](https://pan.baidu.com/s/1iVAR_hSVmLMyrWcjm4HbbA)(Code:90gv)
 
+## Synthesize Underwater Images
+```shell
+cd synthesize
+python synthesize.py --image-dir <Path-To-InAir-Images> --depth-dir <Path-To-Depth-Maps> --out-dir <Output-Directory>
+```
+Note: To synthesize underwater images, in-air images and their corresponding depth maps are required.
+
 ## Citation
 If you find our repo useful for your research, please consider citing our paper:
 
@@ -31,6 +39,9 @@ If you find our repo useful for your research, please consider citing our paper:
 ```
 
 ### ToDo-List
-* [ ] Release the synthesizing code.
+* [x] Release the synthesizing code.
 * [ ] Release the testing code and model checkpoint.
 * [ ] Release the training code.
+
+### Acknowlegements
+1. The coefficients for synthesizing underwater images are computed based on [hainh/sea-thru](https://github.com/hainh/sea-thru.git).
