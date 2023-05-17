@@ -1,0 +1,32 @@
+# Basics
+project: "UIE"
+name: "SyreaNet-Test"
+cuda: "0"
+# Network
+Network:
+  type: "SyreaNet"
+  mode: "test"
+  layers:
+    WaveEncoder:
+      option_unpool: "cat5"
+    WaveDecoder:
+      option_unpool: "cat5"
+    Decoder_B:
+      option_unpool: "cat3"
+    Decoder_T:
+      option_unpool: "cat3"
+# Dataset
+Dataset:
+  test:
+    type: "RealTestDataset"
+    params:
+      data_path: "./samples"
+      img_fmt: "png"
+    loader:
+      n_workers: 0
+      batch_size: 1
+# Preprocess for network input
+Prepare:
+  test:
+    type: "RealTestPrepare"
+

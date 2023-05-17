@@ -1,2 +1,5 @@
 .idea
 .code
+__pycache__
+checkpoints
+output
