@@ -17,7 +17,7 @@ Enhancement examples under various underwater conditions. Video can be found at 
 
 ## Dataset
 The synthesis and real-world dataset could be downloaded via:
-[BaiduYun](https://pan.baidu.com/s/1iVAR_hSVmLMyrWcjm4HbbA) (Code:90gv)
+[[BaiduYun]](https://pan.baidu.com/s/1iVAR_hSVmLMyrWcjm4HbbA) (Code:90gv)
 
 ## Synthesize Underwater Images
 ```shell
@@ -27,7 +27,7 @@ python synthesize.py --image-dir <Path-To-InAir-Images> --depth-dir <Path-To-Dep
 Note: To synthesize underwater images, in-air images and their corresponding depth maps are required.
 
 ## Test with Real Underwater Images
-First, please download the pretrained checkpoint in [GoogleDrive](https://drive.google.com/file/d/1xGrq2jMpdM4mbgDfS4K_cfaeRiEqcgjZ/view?usp=sharing). After that, put the pretrained checkpoint in `checkpoints`.
+First, please download the pretrained checkpoint in [[GoogleDrive]](https://drive.google.com/file/d/1xGrq2jMpdM4mbgDfS4K_cfaeRiEqcgjZ/view?usp=sharing) [[BaiduYun]](https://pan.baidu.com/s/1x9x41K55j54D_2NmuEM4mQ) (Code:s8wq). After that, put the pretrained checkpoint in `checkpoints`.
 
 For demo, just install the required packages with ``pip install -r requirements``. And then run
 ```shell
