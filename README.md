@@ -61,4 +61,4 @@ If you find our repo useful for your research, please consider citing our paper:
 
 ### Acknowlegements
 1. The coefficients for synthesizing underwater images are computed based on [hainh/sea-thru](https://github.com/hainh/sea-thru.git).
-2. The WaveEncoder and WaveDecoder are borrowed from [WCT2](https://github.com/clovaai/WCT2).
+2. The WavePool/WaveUnpool are borrowed from [WCT2](https://github.com/clovaai/WCT2).
