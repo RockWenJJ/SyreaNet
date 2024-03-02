@@ -4,7 +4,7 @@ This repository contains the official implementation of the paper:
 
 > **SyreaNet: A Physically Guided Underwater Image Enhancement Framework Integrating Synthetic and Real Images** (accepted by ICRA2023)<br>
 > Junjie Wen, Jinqiang Cui*, Zhenjun Zhao, Ruixin Yan, Zhi Gao, Lihua Dou, Ben M. Chen <br>
-> **Paper Link**: [[arxiv](https://arxiv.org/pdf/2302.08269.pdf)]
+> **Paper Link**: [[ICRA23](https://ieeexplore.ieee.org/document/10161531)][[arxiv](https://arxiv.org/pdf/2302.08269.pdf)]
 
 
 ## Overview
@@ -44,6 +44,18 @@ The enhanced results will be found in `<YOUR_OUT_DIR>`.
 
 ## Citation
 If you find our repo useful for your research, please consider citing our paper:
+```bibtex
+@INPROCEEDINGS{wen2023syreanet,
+  author={Wen, Junjie and Cui, Jinqiang and Zhao, Zhenjun and Yan, Ruixin and Gao, Zhi and Dou, Lihua and Chen, Ben M.},
+  booktitle={2023 IEEE International Conference on Robotics and Automation (ICRA)}, 
+  title={SyreaNet: A Physically Guided Underwater Image Enhancement Framework Integrating Synthetic and Real Images}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={5177-5183},
+  keywords={Adaptation models;Codes;Automation;Image color analysis;Image synthesis;Atmospheric modeling;Data models},
+  doi={10.1109/ICRA48891.2023.10161531}}
+```
 
 ```bibtex
 @article{wen2023syreanet,
